@@ -1,0 +1,677 @@
+﻿@{
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BSA Brasil</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+    <link href="~/Custom/favicon.png" rel="shortcut icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/Custom/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/Custom/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Custom/lib/animate-css/animate.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Custom/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+      Theme Name: Imperial
+      Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+    ======================================================= -->
+    <!--Custom Style-->
+    <style type="text/css">
+        #myProgress {
+            width: 50%;
+            margin: auto;
+            background-color: grey;
+            border-radius: 25px;
+        }
+
+        #myBar {
+            width: 10%;
+            height: 30px;
+            background-color: #4CAF50;
+            padding-left: 20px;
+            text-align: left; /* To center it horizontally (if you want) */
+            line-height: 30px; /* To center it vertically */
+            color: white;
+        }
+    </style>
+
+    <!--Custom Script-->
+    <script type="text/javascript">
+        function move() {
+            var elem = document.getElementById("myBar");
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width >= 85) {
+                    clearInterval(id);
+                } else {
+                    width++;
+                    elem.style.width = width + '%';
+                }
+            }
+        }
+        window.onload = move;
+    </script>
+</head>
+
+<body class="container-fluid">
+    <div id="preloader"></div>
+
+    <!--==========================
+    Hero Section
+    ============================-->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="wow fadeIn">
+                <div class="hero-logo">
+                    <img class="" src="~/Custom/img/BSA/logo-branco.png" alt="BSA Brasil">
+                </div>
+
+                <h1>Bem vindo à BSA Brasil</h1>
+                <h2>Nós criamos <span class="rotating">Tecnologia, Inovação, Inteligência Artificial</span></h2>
+                <div class="actions">
+                    <a href="#about" class="btn-get-started">Conheça</a>
+                    <a href="#services" class="btn-services">Nossos Serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Header Section
+    ============================-->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <a href="#hero"><img src="~/Custom/img/BSA/logo-branco.png" alt="" title="" /></a>
+                <!-- Uncomment below if you prefer to use a text image -->
+                <!--<h1><a href="#hero">Header 1</a></h1>-->
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="#hero">Home</a></li>
+                    <li><a href="#about">Quem somos</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Clientes</a></li>
+                    <li><a href="#testimonials">Negócio</a></li>
+                    <li><a href="#team">Técnico</a></li>
+                    @*
+                        <li class="menu-has-children">
+                            <a href="">Área Restrita</a>
+                            <ul>
+                                <li><a href="#">Admin Login</a></li>
+                                <!--<li class="menu-has-children"><a href="#">Drop Down 2</a>
+                                  <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                  </ul>
+                                </li>-->
+                                <!--<li><a href="#">Drop Down 3</a></li>
+                                <li><a href="#">Drop Down 4</a></li>
+                                <li><a href="#">Drop Down 5</a></li>-->
+                            </ul>
+                        </li>*@
+                    <li><a href="#contact">Contate-nos</a></li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+    <!-- #header -->
+    <!--==========================
+    About Section
+    ============================-->
+    <section id="about">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Quem Somos</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Sucesso não é um simples fato isolado ou qualquer. Está alinhado a quem você é e onde você quer estar. Estamos preparados para a 4ª Revolução industrial. Vamos juntos fazer parte desta Transformação.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container about-container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-6 col-md-push-6 about-content">
+                    <h2 class="about-title">Vamos fazer juntos ideias</h2>
+                    <p class="about-text">
+                        Oferecemos atendimento específico para nossos clientes. Compartilhamos e missão, os objetivos e formamos equipes de profissionais com conhecimento das áreas de negócios
+                        e nas modalidades técnicas necessárias, o que permite a identificação das necessidades e a recomendação das melhores e mais avançadas Soluções em uso no mercado de TI.
+                        <br />
+                        Nos destacamos dos demais pois entendemos que a tecnologia tem avançado em todas as áreas e negócios, tornando-se cada vez mais vital para motivar as pessoas na compreensão
+                        dos produtos oferecidos em redes sociais, Web sites e lojas físicas. Com este entendimento, oferecemos a nossos clientes soluções que possam apoiar esta compreensão e obterem
+                        resultados comerciais e satisfação de suas operações.
+                        <br />
+                        Vamos mais longe! Nós participamos da Transformação Digital, e queremos compartilhar isso com nossos parceiros e clientes. Vamos juntos sugerir mudanças para o Mercado,
+                        e “fazer diferente” para aumentar os horizontes e conquistar espaços significativos nesta importante Revolução do uso da tecnologia inteligente, fundindo o físico, digital e biológico.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Services Section
+    ============================-->
+    <section id="services">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Serviços</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">O que já temos e o que podemos fazer</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 service-item">
+                    <div class="service-icon"><i class="fa fa-address-card"></i></div>
+                    <h4 class="service-title"><a href="">DESENVOLVIMENTO DE SISTEMAS E APLICATIVOS</a></h4>
+                    <p class="service-description">
+                        Podemos ajuda-lo no desenvolvimento da ideia de seus negócios, seja construindo seus códigos em tecnologias específicas, materializando suas ideias em componentes tecnológicos ou apresentando projetos simples e complexos com foco gerencial e liderança técnica. Destacamos:
+                        <ul>
+                            <li>
+                                Serviços Profissionais de Desenvolvimento de Sistemas
+                            </li>
+                            <li>
+                                Fábrica de Sistemas e Aplicativos
+                            </li>
+                            <li>
+                                Atendimento Sistemas Legado e Customizações
+                            </li>
+                            <li>
+                                Otimização de Banco de Dados
+                            </li>
+                        </ul>
+
+                    </p>
+                </div>
+                <div class="col-md-6 service-item">
+                    <div class="service-icon"><i class="fa fa-edit"></i></div>
+                    <h4 class="service-title"><a href="">SOLUÇÕES</a></h4>
+                    <p class="service-description">
+                        Selecionamos soluções no mercado para oferecer a nossos clientes e parceiros um trabalho com propriedade, experiência e atendimento intimista, próximo as expectativas do Negócio por meio da tecnologia. Convidamos a conhecer:
+                        <ul>
+                            <li>
+                                CREDFORCE - Nossa plataforma Comercial, Operacional e Gerencial de suporte aos correspondentes e demais representantes de serviços como: Consignados, Cartões, Financiamentos, Saúde e Seguros
+                            </li>
+                            <li>
+                                INFOWATCH: permite que os clientes reduzam ao mínimo os riscos associados ao processamento, movimentação e armazenamento de informações dentro da área corporativa segura e externa.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6 service-item">
+                    <div class="service-icon"><i class="fa fa-microchip"></i></div>
+                    <h4 class="service-title"><a href="">Inteligência Artificial</a></h4>
+                    <p class="service-description">Aprimore seus serviços com inteligência artificial e ciência de dados para aumentar a produtividade e qualidade!</p>
+                </div>
+                <!--<div class="col-md-4 service-item">
+                  <div class="service-icon"><i class="fa fa-photo"></i></div>
+                  <h4 class="service-title"><a href="">Magni Dolores</a></h4>
+                  <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-md-4 service-item">
+                  <div class="service-icon"><i class="fa fa-road"></i></div>
+                  <h4 class="service-title"><a href="">Nemo Enim</a></h4>
+                  <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                </div>
+                <div class="col-md-4 service-item">
+                  <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
+                  <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
+                  <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Subscrbe Section
+    ============================-->
+    <section id="subscribe">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="subscribe-title">Inscreva-se para novidades</h3>
+                    <p class="subscribe-text">Se inscreva para saber todas as novidades lançadas pela BSA e acompanhe artigos técnicos e de negócio!</p>
+                </div>
+                <div class="col-md-4 subscribe-btn-container">
+                    <a class="subscribe-btn" href="#">Inscreva-se agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Porfolio Section
+    ============================-->
+    <section id="portfolio">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Clientes</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">
+                        Desenvolvemos uma série de soluções para algumas das maiores empresas do Brasil, aplicando nosso conhecimento de anos de experiência no mercado de TI.
+                        Estas empresas são a nossa razão de existir, e a sua empresa também.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/yahoo-logo.png);" href="">
+                        <div class="details">
+                            <h4>Yahoo</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/bradesco-logo1.png);" href="">
+                        <div class="details">
+                            <h4>Credforce</h4>
+                            <span>Seguros e Consignados</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/orizon-logo1.png);" href="">
+                        <div class="details">
+                            <h4>Orizon</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/correios-logo1.png);" href="">
+                        <div class="details">
+                            <h4>Correios</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/rodobens-logo.png);" href="">
+                        <div class="details">
+                            <h4>Rodobens</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/fiat.png);" href="">
+                        <div class="details">
+                            <h4>FIAT</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/oi-logo.png);" href="">
+                        <div class="details">
+                            <h4>OI</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a class="portfolio-item" style="background-image: url(~/Custom/img/BSA/semparar-logo.png);" href="">
+                        <div class="details">
+                            <h4>Sem Parar</h4>
+                            <span>O que fizemos</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Testimonials Section
+    ============================-->
+    <section id="testimonials">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Negócios</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Como resultado, destamos como principais competências e conhecimentos de negócio:</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="profile">
+                        <div class="pic"><img src="~/Custom/img/BSA/projetos-especiais.png" alt=""></div>
+                        <h4>Financeiro</h4>
+                        <!-- <span>Lawless Inc</span>-->
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="quote">
+                        <b><img src="~/Custom/img/quote_sign_left.png" alt=""></b>
+                        <ul>
+                            <li>
+                                Cambio
+                            </li>
+                            <li>
+                                Cartão de Crédito
+                            </li>
+                            <li>
+                                Cartão de Crédito Pré-Pago
+                            </li>
+                            <li>
+                                Conta Corrente - Extrato Consolidado
+                            </li>
+                            <li>
+                                Cartão Consignado
+                            </li>
+                            <li>
+                                Seguros e Sinistros
+                            </li>
+                            <li>
+                                Repasse e Financiamentos
+                            </li>
+                            <li>
+                                Gestão de Crédito
+                            </li>
+                            <li>
+                                Mercado de Capitais - Homebroker
+                            </li>
+                            <li>
+                                Leasing
+                            </li>
+                            <li>
+                                Negociação
+                            </li>
+                            <li>
+                                Metas e Comissionamento
+                            </li>
+                            <li>
+                                Crédito Consignado
+                            </li>
+                            <li>
+                                Operações de Crédito
+                            </li>
+                            <li>
+                                Vida e Previdência
+                            </li>
+                            <li>
+                                Basiléia
+                            </li>
+                            <li>
+                                Gestão de Risco de Mercado
+                            </li>
+                            <li>
+                                Portal Internet Banking
+                            </li>
+                            <li>
+                                Canais de Atendimento
+                            </li>
+                            <li>
+                                Leilão Eletrônico
+                            </li>
+                        </ul>
+                        <small><img src="img/quote_sign_right.png" alt=""></small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="quote">
+                        <b><img src="~/Custom/img/quote_sign_left.png" alt=""></b> Desenhamos e automatizamos todos os processos de sua empresa, conforme sua necessidade. <small><img src="img/quote_sign_right.png" alt=""></small>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="profile">
+                        <div class="pic"><img src="~/Custom/img/BSA/vps_logo.png" alt=""></div>
+                        <h4>Automatize Processos</h4>
+                        <!--<span>Odeo Inc</span>-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--==========================
+    Team Section
+    ============================-->
+    <section id="team">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Técnico</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Nossos talentos estão distribuídos em diversas tecnologias de Mercado, acumulando experiências ao longo dos anos. Destacamos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="myProgress">
+                <div id="myBar">C#</div>
+            </div>
+        </div>
+
+
+        @*<div class="row">
+            <div class="col-md-3">
+                <div class="member">
+                    <div class="pic"><img src="~/Custom/img/BSA/Thiago.jpg" alt=""></div>
+                    <h4>Thiago Ferro</h4>
+                    <span>Chief Executive Officer</span>
+                    <div class="social">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="member">
+                    <div class="pic"><img src="~/Custom/img/BSA/Flavio.jpg" alt=""></div>
+                    <h4>Flávio Medina</h4>
+                    <span>Chief Operation Officer</span>
+                    <div class="social">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="member">
+                    <div class="pic"><img src="~/Custom/img/BSA/Osmar.jpg" alt=""></div>
+                    <h4>Osmar Junqueira</h4>
+                    <span>Senior Database Administrator</span>
+                    <div class="social">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>*@
+
+        <!--<div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+            <h4>João Lima</h4>
+            <span>Desenvolvedor</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>-->
+        </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Contact Section
+    ============================-->
+    <section id="contact">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Contate-nos</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Quem marcar uma reunião? Entre em contato conosco.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-md-push-2">
+                    <div class="info">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>Alameda Rio Negro, 503 - 5º Andar<br>Barueri, SP 06454-040</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p>administrativo@bsabrasil.com.br</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+55 11 4382 2551</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-md-push-2">
+                    <div class="form">
+                        <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+                        <div id="errormessage"></div>
+                        <form action="" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor, digite ao menos 4 caracteres" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email" data-msg="Por favor, digite um e-mail válido" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor, digite ao menos 8 caracteres como assunto" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor, escreve algo para nós" placeholder="Mensagem"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                            <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+      Footer
+    ============================-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        &copy; Copyright <strong>Imperial Theme &amp; BSA Brasil</strong>. Todos os direitos reservados.
+                    </div>
+                    <div class="credits">
+                        <!--
+                          All the links in the footer should remain intact.
+                          You can delete the links only if you purchased the pro version.
+                          Licensing information: https://bootstrapmade.com/license/
+                          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
+                        -->
+                        Desenvolvido por <a href="http://www.bsabrasil.com.br/">BSA Brasil.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Required JavaScript Libraries -->
+    <script src="~/Custom/lib/jquery/jquery.min.js"></script>
+    <script src="~/Custom/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Custom/lib/superfish/hoverIntent.js"></script>
+    <script src="~/Custom/lib/superfish/superfish.min.js"></script>
+    <script src="~/Custom/lib/morphext/morphext.min.js"></script>
+    <script src="~/Custom/lib/wow/wow.min.js"></script>
+    <script src="~/Custom/lib/stickyjs/sticky.js"></script>
+    <script src="~/Custom/lib/easing/easing.js"></script>
+
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="~/Custom/js/custom.js"></script>
+
+    <script src="~/Custom/contactform/contactform.js"></script>
+
+
+</body>
+
+</html>
