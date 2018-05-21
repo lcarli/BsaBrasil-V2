@@ -1,5 +1,7 @@
 jQuery(document).ready(function ($) {
 
+    var BooleanForMybar = true;
+
     // Preloader
     $(window).on('load', function () {
         $('#preloader').delay(100).fadeOut('slow', function () { $(this).remove(); });
@@ -110,7 +112,10 @@ jQuery(document).ready(function ($) {
         var barElementSelector = "#myProgress";
 
         if (isScrolledIntoView(barElementSelector))
-            move();
+            if (BooleanForMybar) {
+                BooleanForMybar = false;
+                move();
+            }
     }
 
     function isScrolledIntoView(elem) {
