@@ -69,12 +69,14 @@
         }
     </style>
 
+
+    <script src="~/Custom/js/Waypoint/noframework.waypoints.min.js"></script>
     <!--Custom Script-->
     <script type="text/javascript">
         function move() {
             var elem = document.getElementById("myBar");
             var width = 1;
-            var id = setInterval(frame, 10);
+            var id = setInterval(frame, 20);
             function frame() {
                 if (width >= 85) {
                     clearInterval(id);
@@ -84,7 +86,15 @@
                 }
             }
         }
-        window.onload = move;
+
+        var waypoint = new Waypoint({
+            element: document.getElementsByClassName('JustForGetThis'),
+            handler: function () {
+                //move()
+                notify('Basic waypoint triggered')
+            }
+        })
+
     </script>
 </head>
 
@@ -461,7 +471,7 @@
                                 Leilão Eletrônico
                             </li>
                         </ul>
-                        <small><img src="img/quote_sign_right.png" alt=""></small>
+                        <small><img src="~/Custom/img/quote_sign_right.png" alt=""></small>
                     </div>
                 </div>
             </div>
@@ -469,7 +479,7 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="quote">
-                        <b><img src="~/Custom/img/quote_sign_left.png" alt=""></b> Desenhamos e automatizamos todos os processos de sua empresa, conforme sua necessidade. <small><img src="img/quote_sign_right.png" alt=""></small>
+                        <b><img src="~/Custom/img/quote_sign_left.png" alt=""></b> Desenhamos e automatizamos todos os processos de sua empresa, conforme sua necessidade. <small><img src="~/Custom/img/quote_sign_right.png" alt=""></small>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -500,7 +510,7 @@
 
         <div class="row">
             <div id="myProgress">
-                <div id="myBar">C#</div>
+                <div id="myBar" class="JustForGetThis">C#</div>
             </div>
         </div>
 
@@ -665,6 +675,7 @@
     <script src="~/Custom/lib/wow/wow.min.js"></script>
     <script src="~/Custom/lib/stickyjs/sticky.js"></script>
     <script src="~/Custom/lib/easing/easing.js"></script>
+    <script src="~/Custom/js/progressbar.js"></script>
 
     <!-- Template Specisifc Custom Javascript File -->
     <script src="~/Custom/js/custom.js"></script>
