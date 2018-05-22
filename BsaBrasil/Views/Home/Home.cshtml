@@ -57,7 +57,7 @@
             border-radius: 25px;
         }
 
-        #myBar {
+        .myBar {
             width: 10%;
             height: 30px;
             background-color: #4CAF50;
@@ -71,15 +71,94 @@
     <!--Custom Script-->
     <script type="text/javascript">
         function move() {
-            var elem = document.getElementById("myBar");
+            //C#
+            var elem = document.getElementById("BarC");
             var width = 1;
             var id = setInterval(frame, 20);
             function frame() {
-                if (width >= 85) {
+                if (width >= 95) {
                     clearInterval(id);
                 } else {
                     width++;
                     elem.style.width = width + '%';
+                }
+            }
+
+            //ANGULAR
+            var elem2 = document.getElementById("BarAngular");
+            var width2 = 1;
+            var id2 = setInterval(frame2, 20);
+            function frame2() {
+                if (width2 >= 45) {
+                    clearInterval(id2);
+                } else {
+                    width2++;
+                    elem2.style.width = width2 + '%';
+                }
+            }
+
+            //.NET
+            var elem3 = document.getElementById("BarNET");
+            var width3 = 1;
+            var id3 = setInterval(frame3, 20);
+            function frame3() {
+                if (width3 >= 95) {
+                    clearInterval(id3);
+                } else {
+                    width3++;
+                    elem3.style.width = width3 + '%';
+                }
+            }
+
+            //PHP
+            var elem4 = document.getElementById("BarPHP");
+            var width4 = 1;
+            var id4 = setInterval(frame4, 20);
+            function frame4() {
+                if (width4 >= 55) {
+                    clearInterval(id4);
+                } else {
+                    width4++;
+                    elem4.style.width = width4 + '%';
+                }
+            }
+
+            //JAVA
+            var elem5 = document.getElementById("BarJava");
+            var width5 = 1;
+            var id5 = setInterval(frame5, 20);
+            function frame5() {
+                if (width5 >= 75) {
+                    clearInterval(id5);
+                } else {
+                    width5++;
+                    elem5.style.width = width5 + '%';
+                }
+            }
+
+            //Oracle
+            var elem7 = document.getElementById("BarOracle");
+            var width7 = 1;
+            var id7 = setInterval(frame7, 20);
+            function frame7() {
+                if (width7 >= 90) {
+                    clearInterval(id7);
+                } else {
+                    width7++;
+                    elem7.style.width = width7 + '%';
+                }
+            }
+
+            //SQL
+            var elem6 = document.getElementById("BarSQL");
+            var width6 = 1;
+            var id6 = setInterval(frame6, 20);
+            function frame6() {
+                if (width6 >= 85) {
+                    clearInterval(id6);
+                } else {
+                    width6++;
+                    elem6.style.width = width6 + '%';
                 }
             }
         }
@@ -498,68 +577,32 @@
 
         <div class="row">
             <div id="myProgress">
-                <div id="myBar" class="JustForGetThis">C#</div>
+                <div id="BarC" class="myBar">C#</div>
             </div>
-        </div>
-
-
-        @*<div class="row">
-            <div class="col-md-3">
-                <div class="member">
-                    <div class="pic"><img src="~/Custom/img/BSA/Thiago.jpg" alt=""></div>
-                    <h4>Thiago Ferro</h4>
-                    <span>Chief Executive Officer</span>
-                    <div class="social">
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-google-plus"></i></a>
-                        <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
+            <br />
+            <div id="myProgress">
+                <div id="BarNET" class="myBar">.NET</div>
             </div>
-
-            <div class="col-md-3">
-                <div class="member">
-                    <div class="pic"><img src="~/Custom/img/BSA/Flavio.jpg" alt=""></div>
-                    <h4>Flávio Medina</h4>
-                    <span>Chief Operation Officer</span>
-                    <div class="social">
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-google-plus"></i></a>
-                        <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
+            <br />
+            <div id="myProgress">
+                <div id="BarAngular" class="myBar">Angular</div>
             </div>
-
-            <div class="col-md-3">
-                <div class="member">
-                    <div class="pic"><img src="~/Custom/img/BSA/Osmar.jpg" alt=""></div>
-                    <h4>Osmar Junqueira</h4>
-                    <span>Senior Database Administrator</span>
-                    <div class="social">
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-google-plus"></i></a>
-                        <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>*@
-
-        <!--<div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-            <h4>João Lima</h4>
-            <span>Desenvolvedor</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
+            <br />
+            <div id="myProgress">
+                <div id="BarPHP" class="myBar">PHP</div>
             </div>
-          </div>
-        </div>-->
-        </div>
+            <br />
+            <div id="myProgress">
+                <div id="BarSQL" class="myBar">SQL</div>
+            </div>
+            <br />
+            <div id="myProgress">
+                <div id="BarOracle" class="myBar">ORACLE</div>
+            </div>
+            <br />
+            <div id="myProgress">
+                <div id="BarJava" class="myBar">JAVA</div>
+            </div>
         </div>
     </section>
 
