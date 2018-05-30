@@ -501,7 +501,8 @@ body.mobile-nav-active {
 }
 
     #about .about-container {
-        background: url(../img/BSA/BSABlue.jpg) left no-repeat;
+        background: url(../img/BSA/Perfil-Logo.png) left no-repeat;
+        background-size: contain;
     }
 
     #about .about-content {
@@ -618,6 +619,7 @@ body.mobile-nav-active {
 
 /* Portfolio Section
 --------------------------------*/
+
 #portfolio {
     background: #fff;
     padding: 80px 0;
@@ -684,7 +686,10 @@ body.mobile-nav-active {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-    background: #f6f6f6;
+    /*background: #f6f6f6;
+    padding: 80px 0;*/
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/BSA/BANNER2.jpg) fixed center center;
+    background-size: cover;
     padding: 80px 0;
 }
 
