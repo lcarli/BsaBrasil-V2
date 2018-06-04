@@ -1,9 +1,13 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+@{
     Layout = null;
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -206,13 +210,13 @@
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="#hero">Home</a></li>
-                    <li><a href="#about">Quem somos</a></li>
+                    <li class="menu-active"><a href="#hero">@Localizer["Home"]</a></li>
+                    <li><a href="#about">Quem Somos</a></li>
                     <li><a href="#services">Serviços</a></li>
                     <li><a href="#portfolio">Clientes</a></li>
                     <li><a href="#testimonials">Negócio</a></li>
                     <li><a href="#team">Técnico</a></li>
-                    @*
+                    @*s
                         <li class="menu-has-children">
                             <a href="">Área Restrita</a>
                             <ul>
@@ -350,18 +354,18 @@
     Subscrbe Section
     ============================-->
     @*<section id="subscribe">
-        <div class="container wow fadeInUp">
-            <div class="row">
-                <div class="col-md-8">
-                    <h3 class="subscribe-title">Inscreva-se para novidades</h3>
-                    <p class="subscribe-text">Se inscreva para saber todas as novidades lançadas pela BSA e acompanhe artigos técnicos e de negócio!</p>
-                </div>
-                <div class="col-md-4 subscribe-btn-container">
-                    <a class="subscribe-btn" href="#">Inscreva-se agora</a>
+            <div class="container wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="subscribe-title">Inscreva-se para novidades</h3>
+                        <p class="subscribe-text">Se inscreva para saber todas as novidades lançadas pela BSA e acompanhe artigos técnicos e de negócio!</p>
+                    </div>
+                    <div class="col-md-4 subscribe-btn-container">
+                        <a class="subscribe-btn" href="#">Inscreva-se agora</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>*@
+        </section>*@
 
     <!--==========================
     Porfolio Section

@@ -5,11 +5,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BsaBrasil.Models;
+using Microsoft.Extensions.Localization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Builder;
 
 namespace BsaBrasil.Controllers
 {
     public class HomeController : Controller
     {
+        public IStringLocalizer<HomeController> Localizer { get; }
+
+        public HomeController(IStringLocalizer<HomeController> localizer)
+        {
+            Localizer = localizer;
+        }
         public IActionResult Index()
         {
             return View();
@@ -22,8 +33,6 @@ namespace BsaBrasil.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
