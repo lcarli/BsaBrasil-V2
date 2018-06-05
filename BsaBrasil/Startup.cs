@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -25,9 +27,17 @@ namespace BsaBrasil
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
             services.AddLocalization();
 
             services.AddMvc()
+                    .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
                     .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix);
 
             services.Configure<RequestLocalizationOptions>(options =>
@@ -45,11 +55,11 @@ namespace BsaBrasil
         {
             if (env.IsDevelopment())
             {
-                app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
             else
             {
+                app.UseHsts();
                 app.UseExceptionHandler("/Home/Error");
             }
 
@@ -58,6 +68,7 @@ namespace BsaBrasil
             //app.UseRequestLocalization(locOptions.Value);
 
             app.UseStaticFiles();
+            app.UseCookiePolicy();
 
             app.UseMvc(routes =>
             {
