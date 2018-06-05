@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Bem vindo à BSA Brasil" xml:space="preserve">
-    <value>Welcome to BSA Brasil</value>
-  </data>
   <data name="Clientes" xml:space="preserve">
     <value>Clients</value>
   </data>
@@ -138,36 +135,27 @@
   <data name="Nossos Serviços" xml:space="preserve">
     <value>Our Services</value>
   </data>
-  <data name="Nós criamos Tecnologia, Nós criamos Inovação, Nós criamos Inteligência Artificial" xml:space="preserve">
-    <value>We create Technology, We create Innovaction, We create Artificial Intelligency</value>
-  </data>
-  <data name="O que já temos e o que podemos fazer" xml:space="preserve">
-    <value>What we already have and what we can do.</value>
-  </data>
   <data name="Quem Somos" xml:space="preserve">
     <value>About Us</value>
   </data>
   <data name="QuemSomosSubtitle" xml:space="preserve">
-    <value>Success is not only a simple fact. It is aligned with who you are and where you wanna be. We are ready to the 4ª Industrial Revolution. Let's go together make this transformation.</value>
+    <value>Sucesso não é um simples fato isolado ou qualquer.Está alinhado a quem você é e onde você quer estar.Estamos preparados para a 4ª Revolução industrial.Vamos juntos fazer parte desta Transformação.</value>
   </data>
   <data name="QuemSomosText" xml:space="preserve">
-    <value>We offer custom services for our clients. We share the mission, the goals and create a profissional team with the finest knowledge about business
-                        and technical areas needed, which allow us to identify the needs of our client and the recommendation of the best and poweful and modern applications on the market.
+    <value>Oferecemos atendimento específico para nossos clientes.Compartilhamos e missão, os objetivos e formamos equipes de profissionais com conhecimento das áreas de negócios
+                        e nas modalidades técnicas necessárias, o que permite a identificação das necessidades e a recomendação das melhores e mais avançadas Soluções em uso no mercado de TI.
                         &lt;br /&gt;
-                        Our difference is because we understood technology and business is under transformation, becaming more vital to make people capable to understand
-                        the products at social medias, web sites and physical stores. With this, we offer to our clients solutions that can help them to understand and reach
-                        commercial result and satisfaction with their operations.
+                        Nos destacamos dos demais pois entendemos que a tecnologia tem avançado em todas as áreas e negócios, tornando-se cada vez mais vital para motivar as pessoas na compreensão
+                        dos produtos oferecidos em redes sociais, Web sites e lojas físicas.Com este entendimento, oferecemos a nossos clientes soluções que possam apoiar esta compreensão e obterem
+                        resultados comerciais e satisfação de suas operações.
                         &lt;br /&gt;
-                        We can more! We are able to to help you with Digital Transformation and want to share this with our partner and clients. Let's go togheter suggest changes to the Market,
-                       and make difference to go futher and conquest more in that recolution using intelligent techs, mixing the physical, digital e biological world.</value>
+                        Vamos mais longe! Nós participamos da Transformação Digital, e queremos compartilhar isso com nossos parceiros e clientes.Vamos juntos sugerir mudanças para o Mercado,
+                        e “fazer diferente” para aumentar os horizontes e conquistar espaços significativos nesta importante Revolução do uso da tecnologia inteligente, fundindo o físico, digital e biológico.</value>
   </data>
   <data name="Serviços" xml:space="preserve">
     <value>Services</value>
   </data>
   <data name="Técnico" xml:space="preserve">
     <value>Technical</value>
-  </data>
-  <data name="Vamos fazer juntos ideias" xml:space="preserve">
-    <value>Let's go together</value>
   </data>
 </root>
