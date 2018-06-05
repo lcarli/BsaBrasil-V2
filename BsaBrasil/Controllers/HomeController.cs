@@ -28,6 +28,8 @@ namespace BsaBrasil.Controllers
 
         public IActionResult Home()
         {
+            //var rqf = Request.HttpContext.Features.Get<IRequestCultureFeature>();
+            //ViewData["CC"] = rqf.RequestCulture.Culture;
             return View();
         }
 
