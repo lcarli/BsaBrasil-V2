@@ -117,26 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Clientes" xml:space="preserve">
-    <value>Clients</value>
+  <data name="AIText" xml:space="preserve">
+    <value>Aprimore seus serviços com inteligência artificial e ciência de dados para aumentar a produtividade e qualidade!</value>
   </data>
-  <data name="Conheça" xml:space="preserve">
-    <value>Know more</value>
+  <data name="ClientesText" xml:space="preserve">
+    <value>Desenvolvemos uma série de soluções para algumas das maiores empresas do Brasil, aplicando nosso conhecimento de anos de experiência no mercado de TI.
+                        Estas empresas são a nossa razão de existir, e a sua empresa também.</value>
   </data>
-  <data name="Contate-nos" xml:space="preserve">
-    <value>Contact</value>
+  <data name="CredforceText" xml:space="preserve">
+    <value>CREDFORCE - Nossa plataforma Comercial, Operacional e Gerencial de suporte aos correspondentes e demais representantes de serviços como: Consignados, Cartões, Financiamentos, Saúde e Seguros</value>
   </data>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
+  <data name="DevText" xml:space="preserve">
+    <value>Podemos ajuda-lo no desenvolvimento da ideia de seus negócios, seja construindo seus códigos em tecnologias específicas, materializando suas ideias em componentes tecnológicos ou apresentando projetos simples e complexos com foco gerencial e liderança técnica.Destacamos:</value>
   </data>
-  <data name="Negócios" xml:space="preserve">
-    <value>Business</value>
+  <data name="InfowatchText" xml:space="preserve">
+    <value>INFOWATCH: permite que os clientes reduzam ao mínimo os riscos associados ao processamento, movimentação e armazenamento de informações dentro da área corporativa segura e externa.</value>
   </data>
-  <data name="Nossos Serviços" xml:space="preserve">
-    <value>Our Services</value>
-  </data>
-  <data name="Quem Somos" xml:space="preserve">
-    <value>About Us</value>
+  <data name="NegociosText" xml:space="preserve">
+    <value>Como resultado, destamos como principais competências e conhecimentos de negócio:</value>
   </data>
   <data name="QuemSomosSubtitle" xml:space="preserve">
     <value>Sucesso não é um simples fato isolado ou qualquer.Está alinhado a quem você é e onde você quer estar.Estamos preparados para a 4ª Revolução industrial.Vamos juntos fazer parte desta Transformação.</value>
@@ -152,10 +150,10 @@
                         Vamos mais longe! Nós participamos da Transformação Digital, e queremos compartilhar isso com nossos parceiros e clientes.Vamos juntos sugerir mudanças para o Mercado,
                         e “fazer diferente” para aumentar os horizontes e conquistar espaços significativos nesta importante Revolução do uso da tecnologia inteligente, fundindo o físico, digital e biológico.</value>
   </data>
-  <data name="Serviços" xml:space="preserve">
-    <value>Services</value>
+  <data name="SolucaoText" xml:space="preserve">
+    <value>Selecionamos soluções no mercado para oferecer a nossos clientes e parceiros um trabalho com propriedade, experiência e atendimento intimista, próximo as expectativas do Negócio por meio da tecnologia.Convidamos a conhecer:</value>
   </data>
-  <data name="Técnico" xml:space="preserve">
-    <value>Technical</value>
+  <data name="TecnicoText" xml:space="preserve">
+    <value>Nossos talentos estão distribuídos em diversas tecnologias de Mercado, acumulando experiências ao longo dos anos. Destacamos</value>
   </data>
 </root>

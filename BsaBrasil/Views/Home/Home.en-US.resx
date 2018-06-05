@@ -117,23 +117,141 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AIText" xml:space="preserve">
+    <value>Getting better with Artificial Intelligence and Data Science to upgrade your produtivity and quality!</value>
+  </data>
+  <data name="Assinatura Digital de Arquivos" xml:space="preserve">
+    <value>File Digital Signature</value>
+  </data>
+  <data name="Atendimento de Sistemas Legado e Customizações" xml:space="preserve">
+    <value>Legacy Systems and Custom Systems</value>
+  </data>
+  <data name="Basiléia" xml:space="preserve">
+    <value>Basel (Agreement)</value>
+  </data>
   <data name="Bem vindo à BSA Brasil" xml:space="preserve">
     <value>Welcome to BSA Brasil</value>
+  </data>
+  <data name="Canais de Atendimento" xml:space="preserve">
+    <value>Support Channels</value>
+  </data>
+  <data name="Cartão Consignado" xml:space="preserve">
+    <value>Consigned Credit Card</value>
+  </data>
+  <data name="Cartão de Crédito" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="Cartão de Crédito Pré-Pago" xml:space="preserve">
+    <value>Pre Paid Credit Card</value>
   </data>
   <data name="Clientes" xml:space="preserve">
     <value>Clients</value>
   </data>
+  <data name="ClientesText" xml:space="preserve">
+    <value>We developed many software systems for biggests companies in Brazil, applying our knowledge from many years of experience.
+                        This companies are the reason of our existence and also your company.</value>
+  </data>
+  <data name="Conciliação de Contas" xml:space="preserve">
+    <value>Reconciliation</value>
+  </data>
   <data name="Conheça" xml:space="preserve">
     <value>Know more</value>
+  </data>
+  <data name="Conta Corrente - Extrato Consolidado" xml:space="preserve">
+    <value>Account Resume</value>
   </data>
   <data name="Contate-nos" xml:space="preserve">
     <value>Contact</value>
   </data>
+  <data name="CredforceText" xml:space="preserve">
+    <value>CREDFORCE - Our software platform Commercial, Operacional and Support Management to to all third-party clients, such as: Consigneds, Credit Cards, Loans, Health and others Insurances</value>
+  </data>
+  <data name="Crédito Consignado" xml:space="preserve">
+    <value>Consigned Credit</value>
+  </data>
+  <data name="Câmbio" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="Desenvolvido por" xml:space="preserve">
+    <value>Developed by</value>
+  </data>
+  <data name="Desenvolvimento de Negócios" xml:space="preserve">
+    <value>Business Development</value>
+  </data>
+  <data name="DESENVOLVIMENTO DE SISTEMAS E APLICATIVOS" xml:space="preserve">
+    <value>SOFTWARE AND APPLICATION DEVELOPMENT</value>
+  </data>
+  <data name="DevText" xml:space="preserve">
+    <value>We can help you to develop your ideas and business, either building new software with high technology or presenting complex projects focused in technical leadership, such as:</value>
+  </data>
+  <data name="Digitação de Guias médicas" xml:space="preserve">
+    <value>Doctor's fowarding letter typing</value>
+  </data>
+  <data name="Específicos" xml:space="preserve">
+    <value>Specifics</value>
+  </data>
+  <data name="Faturamento" xml:space="preserve">
+    <value>Revenue</value>
+  </data>
+  <data name="Financeiro" xml:space="preserve">
+    <value>Financial</value>
+  </data>
+  <data name="Front-end e Mobilidade" xml:space="preserve">
+    <value>Front-End and Mobility</value>
+  </data>
+  <data name="Fábrica de Sistemas e Aplicativos" xml:space="preserve">
+    <value>Software House</value>
+  </data>
+  <data name="Gateway de Pagamento" xml:space="preserve">
+    <value>Payment Gateway</value>
+  </data>
+  <data name="Gestão de Crédito" xml:space="preserve">
+    <value>Credit Management</value>
+  </data>
+  <data name="Gestão de Risco de Mercado" xml:space="preserve">
+    <value>Market Risk Management</value>
+  </data>
+  <data name="Gestão de Sinistros e Apólice de Seguros" xml:space="preserve">
+    <value>Claims Management and Insurance Policy</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="InfowatchText" xml:space="preserve">
+    <value>INFOWATCH: Allow our clients to reduce to minimun all risks about  process, transfer and storage information inside and outside of the company.</value>
+  </data>
+  <data name="Integração com Prestadora de Serviço e Operadora de Seguros" xml:space="preserve">
+    <value>Integration with Third-Party and Insurances Carrier</value>
+  </data>
+  <data name="INTELIGÊNCIA ARTIFICIAL" xml:space="preserve">
+    <value>ARTIFICIAL INTELLIGENCE</value>
+  </data>
+  <data name="Leasing" xml:space="preserve">
+    <value>Leasing</value>
+  </data>
+  <data name="Leilão Eletrônico" xml:space="preserve">
+    <value>Eletronic Auction</value>
+  </data>
+  <data name="Listas Promocionais" xml:space="preserve">
+    <value>Promocional Lists</value>
+  </data>
+  <data name="Mercado de Capitais - Homebroker" xml:space="preserve">
+    <value>Homebroker</value>
+  </data>
+  <data name="Metas e Comissionamento" xml:space="preserve">
+    <value>Target Plan and Commissioning</value>
+  </data>
+  <data name="Negociação" xml:space="preserve">
+    <value>Negociation</value>
+  </data>
+  <data name="NegociosText" xml:space="preserve">
+    <value>As result, we show as mainly skills and business knowledge:</value>
+  </data>
   <data name="Negócios" xml:space="preserve">
     <value>Business</value>
+  </data>
+  <data name="Normatizações com Integrações" xml:space="preserve">
+    <value>Normalization and Integration</value>
   </data>
   <data name="Nossos Serviços" xml:space="preserve">
     <value>Our Services</value>
@@ -141,8 +259,26 @@
   <data name="Nós criamos Tecnologia, Nós criamos Inovação, Nós criamos Inteligência Artificial" xml:space="preserve">
     <value>We create Technology, We create Innovaction, We create Artificial Intelligency</value>
   </data>
+  <data name="O que fizemos" xml:space="preserve">
+    <value>What we've done</value>
+  </data>
   <data name="O que já temos e o que podemos fazer" xml:space="preserve">
     <value>What we already have and what we can do.</value>
+  </data>
+  <data name="Operações de Crédito" xml:space="preserve">
+    <value>Credit Operations</value>
+  </data>
+  <data name="Operações Multi-Serviços e  Multi-Instituição" xml:space="preserve">
+    <value>Multi-Services Operations and Institutions</value>
+  </data>
+  <data name="Otimização de Banco de Dados" xml:space="preserve">
+    <value>Database Optimization</value>
+  </data>
+  <data name="Portal Internet Banking" xml:space="preserve">
+    <value>Internet Banking</value>
+  </data>
+  <data name="Quem marcar uma reunião? Entre em contato conosco." xml:space="preserve">
+    <value>Want to meet us? Book a meeting right now.</value>
   </data>
   <data name="Quem Somos" xml:space="preserve">
     <value>About Us</value>
@@ -161,13 +297,79 @@
                         We can more! We are able to to help you with Digital Transformation and want to share this with our partner and clients. Let's go togheter suggest changes to the Market,
                        and make difference to go futher and conquest more in that recolution using intelligent techs, mixing the physical, digital e biological world.</value>
   </data>
+  <data name="Recursos de Glosa em BPO" xml:space="preserve">
+    <value>BPO Resources</value>
+  </data>
+  <data name="Reembolso de Farmácias" xml:space="preserve">
+    <value>Pharmacy and Medicine Expenses</value>
+  </data>
+  <data name="Repasse e Financiamentos" xml:space="preserve">
+    <value>Onlending and Loan</value>
+  </data>
+  <data name="Seguros e Consignados" xml:space="preserve">
+    <value>Insurances and Consigned Credit</value>
+  </data>
+  <data name="Seguros e Sinistros" xml:space="preserve">
+    <value>Insurance and Claims</value>
+  </data>
+  <data name="Serviço Auxiliar de Diagnóstico e Terapia" xml:space="preserve">
+    <value>Diagnostics and Therapy Auxiliar Services</value>
+  </data>
   <data name="Serviços" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Serviços Profissionais de Desenvolvimento de Sistemas" xml:space="preserve">
+    <value>Profissional Software Development Services</value>
+  </data>
+  <data name="SolucaoText" xml:space="preserve">
+    <value>We selected market solutions to offer to our clients and partners a job with property, experience and closer relationship, to reach their business expectations with technology. We invite you to know more:</value>
+  </data>
+  <data name="SOLUÇÕES" xml:space="preserve">
+    <value>SOLUTIONS</value>
+  </data>
+  <data name="TecnicoText" xml:space="preserve">
+    <value>Our tech team are spread in many technologies, developing thru many years of work, such as:</value>
+  </data>
+  <data name="Todos os direitos reservados" xml:space="preserve">
+    <value>All rights reserved</value>
   </data>
   <data name="Técnico" xml:space="preserve">
     <value>Technical</value>
   </data>
   <data name="Vamos fazer juntos ideias" xml:space="preserve">
     <value>Let's go together</value>
+  </data>
+  <data name="Vida e Previdência" xml:space="preserve">
+    <value>Private Pension</value>
+  </data>
+  <data name="Assunto" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Enviar Mensagem" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="Mensagem" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Por favor, digite ao menos 4 caracteres" xml:space="preserve">
+    <value>Please, write at least 4 characters</value>
+  </data>
+  <data name="Por favor, digite ao menos 8 caracteres como assunto" xml:space="preserve">
+    <value>Please, write at least 8 characters as subject</value>
+  </data>
+  <data name="Por favor, digite um e-mail válido" xml:space="preserve">
+    <value>Please, insert a valid e-mail</value>
+  </data>
+  <data name="Por favor, escreve algo para nós" xml:space="preserve">
+    <value>Please, write something for us</value>
+  </data>
+  <data name="Seu e-mail" xml:space="preserve">
+    <value>Your e-mail</value>
+  </data>
+  <data name="Seu nome" xml:space="preserve">
+    <value>Your name</value>
+  </data>
+  <data name="Sua mensagem foi enviada. Obrigado!" xml:space="preserve">
+    <value>Your message was sent. Thank you!</value>
   </data>
 </root>
