@@ -695,7 +695,7 @@
                     <div class="form">
                         <div id="sendmessage">@Localizer["Sua mensagem foi enviada. Obrigado!"]</div>
                         <div id="errormessage"></div>
-                        <form action="" method="post" role="form" class="contactForm">
+                        <form asp-action="Send" asp-controller="Home" method="post" role="form">
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-rule="minlen:4" data-msg="@Localizer["Por favor, digite ao menos 4 caracteres"]" />
                                 <div class="validation"></div>
