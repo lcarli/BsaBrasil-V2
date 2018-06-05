@@ -56,9 +56,6 @@
     <Content Update="wwwroot\Custom\img\BSA\logo-branco.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\Custom\img\BSA\miss├úo.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="wwwroot\Custom\img\BSA\oi-logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
