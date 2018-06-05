@@ -53,7 +53,7 @@ namespace BsaBrasil.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        private async void Send([FromForm] string email, string message, string subject, string name)
+        public async void Send([FromForm] string email, string message, string subject, string name)
         {
             var smtpClient = new SmtpClient
             {
