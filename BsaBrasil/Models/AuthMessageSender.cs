@@ -18,14 +18,14 @@ namespace BsaBrasil.Models
 
         public EmailSettings _emailSettings { get; }
 
-        public Task SendEmailAsync(string email, string subject, string message)
+        public Task SendEmailAsync(string email, string subject, string message, string name)
         {
 
-            Execute(email, subject, message).Wait();
+            Execute(email, subject, message, name).Wait();
             return Task.FromResult(0);
         }
 
-        public async Task Execute(string email, string subject, string message)
+        public async Task Execute(string email, string subject, string message, string name)
         {
             try
             {
@@ -37,13 +37,11 @@ namespace BsaBrasil.Models
                 mail.To.Add(new MailAddress(toEmail));
 
                 mail.Subject = subject;
-                mail.Body = $"BSA SITE MEETING - {message} - SENDER: {email}";
+                mail.Body = $"BSA SITE MEETING - {message} - SENDER: {name} - {email}";
                 mail.IsBodyHtml = true;
                 mail.Priority = MailPriority.High;
 
-                mail.To.Add("lucas.decarli@gmail.com");
-
-                using (SmtpClient smtp = new SmtpClient(_emailSettings.SecondayDomain, _emailSettings.SecondaryPort))
+                using (SmtpClient smtp = new SmtpClient(_emailSettings.PrimaryDomain, _emailSettings.PrimaryPort))
                 {
                     smtp.Credentials = new NetworkCredential(_emailSettings.UsernameEmail, _emailSettings.UsernamePassword);
                     smtp.EnableSsl = true;
@@ -52,7 +50,7 @@ namespace BsaBrasil.Models
             }
             catch (Exception ex)
             {
-                //do something here
+                //TODO: Create a Logger user interface ILogger and storage this into a Blob Storage
             }
         }
     }

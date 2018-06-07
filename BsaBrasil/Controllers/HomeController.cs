@@ -57,17 +57,17 @@ namespace BsaBrasil.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async void Send([FromForm] string email, string message, string subject, string name)
+        public async Task<IActionResult> Send([FromForm] string email, string message, string subject, string name)
         {
-            //try
-            //{
-            //    await EmailSender.SendEmailAsync(email, subject, message);
-            //    return true;
-            //}
-            //catch (Exception)
-            //{
-            //    return false;
-            //}
+            try
+            {
+                await EmailSender.SendEmailAsync(email, subject, message, name);
+                return RedirectToAction("Home");
+            }
+            catch (Exception)
+            {
+                return RedirectToAction("Home");
+            }
         }
     }
 }
