@@ -57,7 +57,7 @@ namespace BsaBrasil.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<bool> Send([FromForm] string email, string message, string subject, string name)
+        public async void Send([FromForm] string email, string message, string subject, string name)
         {
             //try
             //{
