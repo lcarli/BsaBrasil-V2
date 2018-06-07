@@ -59,15 +59,15 @@ namespace BsaBrasil.Controllers
         [AllowAnonymous]
         public async Task<bool> Send([FromForm] string email, string message, string subject, string name)
         {
-            try
-            {
-                await EmailSender.SendEmailAsync(email, subject, message);
-                return true;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
+            //try
+            //{
+            //    await EmailSender.SendEmailAsync(email, subject, message);
+            //    return true;
+            //}
+            //catch (Exception)
+            //{
+            //    return false;
+            //}
         }
     }
 }
