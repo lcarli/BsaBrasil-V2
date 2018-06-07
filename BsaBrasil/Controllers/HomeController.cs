@@ -13,16 +13,20 @@ using Microsoft.AspNetCore.Builder;
 using System.Net.Mail;
 using System.Net;
 using Microsoft.AspNetCore.Authorization;
+using BsaBrasil.Interfaces;
 
 namespace BsaBrasil.Controllers
 {
     public class HomeController : Controller
     {
         public IStringLocalizer<HomeController> Localizer { get; }
+        public IEmailSender EmailSender { get; }
 
-        public HomeController(IStringLocalizer<HomeController> localizer)
+        public HomeController(IStringLocalizer<HomeController> localizer,
+                              IEmailSender emailSender)
         {
             Localizer = localizer;
+            EmailSender = emailSender;
         }
         public IActionResult Index()
         {
@@ -53,23 +57,16 @@ namespace BsaBrasil.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async void Send([FromForm] string email, string message, string subject, string name)
+        public async Task<bool> Send([FromForm] string email, string message, string subject, string name)
         {
-            var smtpClient = new SmtpClient
+            try
             {
-                Host = "smtp.gmail.com", // set your SMTP server name here
-                Port = 587, // Port 
-                EnableSsl = true,
-                Credentials = new NetworkCredential("bsabrasilsite@gmail.com", "Bsa@2018")
-            };
-
-            using (var messageBody = new MailMessage("bsabrasilsite@gmail.com", "lucas.decarli@gmail.com")
+                await EmailSender.SendEmailAsync(email, subject, message);
+                return true;
+            }
+            catch (Exception)
             {
-                Subject = subject,
-                Body = message + " Email do solicitante: " + email
-            })
-            {
-                await smtpClient.SendMailAsync(messageBody);
+                return false;
             }
         }
     }
