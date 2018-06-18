@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
+@model BsaBrasil.ViewModel.EmailViewModel
 
 @inject IViewLocalizer Localizer
 
@@ -77,10 +78,9 @@
     <!--Custom Script-->
     <script type="text/javascript">
         $(document).ready(function () {
-            var mmsg = "@TempData["EmailSent"]";
+            var mmsg = "@TempData["_alert.type"]";
             if (mmsg != undefined && mmsg != "") {
                 $("html, body").animate({ scrollTop: $("#contact").offset().top }, 500);
-                setTimeout(function () { alert(mmsg); }, 1400);
             }
         });
     </script>
@@ -232,7 +232,7 @@
                     <p class="section-description" style="color: white">
                         @Localizer["ParceirosText"]
                     </p>
-                    <img src="~/Custom/img/Logo_RMCSoft.png"/>
+                    <img src="~/Custom/img/Logo_RMCSoft.png" />
                 </div>
             </div>
         </div>
@@ -667,30 +667,37 @@
                 </div>
 
                 <div class="col-md-5 col-md-push-2">
-                    <div class="form">
-                        <div id="sendmessage">@Localizer["Sua mensagem foi enviada. Obrigado!"]</div>
-                        <div id="errormessage"></div>
 
+                    @{
+                        var type = (string)TempData["_alert.type"];
+                        var title = (string)TempData["_alert.title"];
+                        var body = (string)TempData["_alert.body"];
+                    }
+                    @if (!string.IsNullOrEmpty(type))
+                    {
+                        <div class="alert alert-@type alert-dismissible" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <strong>@title</strong> @body
+                        </div>
+                    }
+
+                    <div class="form">
                         <form asp-action="Send" asp-controller="Home" method="post" role="form">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-rule="minlen:4" data-msg="@Localizer["Por favor, digite ao menos 4 caracteres"]" />
-                                <div class="validation"></div>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-val-required="@Localizer["Por favor, digite ao menos 4 caracteres"]" />
+                                @*<span asp-validation-for="Nome" style="background-color:red; color:white"></span>*@
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" id="email" placeholder="@Localizer["Seu e-mail"]" data-rule="email" data-msg="@Localizer["Por favor, digite um e-mail válido"]" />
-                                <div class="validation"></div>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="subject" id="subject" placeholder="@Localizer["Assunto"]" data-rule="minlen:4" data-msg="@Localizer["Por favor, digite ao menos 8 caracteres como assunto"]" />
-                                <div class="validation"></div>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="@Localizer["Por favor, escreve algo para nós"]" placeholder="@Localizer["Mensagem"]"></textarea>
-                                <div class="validation"></div>
                             </div>
                             <div class="text-center"><button type="submit">@Localizer["Enviar Mensagem"]</button></div>
                         </form>
-
                     </div>
                 </div>
 

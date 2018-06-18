@@ -14,6 +14,8 @@ using System.Net.Mail;
 using System.Net;
 using Microsoft.AspNetCore.Authorization;
 using BsaBrasil.Interfaces;
+using BsaBrasil.Extensions.Alerts;
+using BsaBrasil.ViewModel;
 
 namespace BsaBrasil.Controllers
 {
@@ -35,11 +37,23 @@ namespace BsaBrasil.Controllers
             return View();
         }
 
-        public IActionResult Home()
+        public IActionResult Home(EmailViewModel model)
         {
-            TempData["EmailSent"] = tempText;
-            tempText = "";
-            return View();
+            if (!String.IsNullOrWhiteSpace(tempText))
+            {
+                if (tempText.Contains("erro"))
+                {
+                    return View(model).WithWarning("Erro", tempText);
+                }
+                else
+                {
+                    return View(model).WithSuccess("OK!", tempText);
+                }
+            }
+            else
+            {
+                return View(model);
+            }
         }
 
         public IActionResult About()
@@ -66,14 +80,12 @@ namespace BsaBrasil.Controllers
             try
             {
                 await EmailSender.SendEmailAsync(email, subject, message, name);
-                tempText = "Email enviado com sucesso!";
-                TempData["Status"] = true;
+                tempText = Localizer["Sua mensagem foi enviada. Obrigado!"];
                 return RedirectToAction("Home");
             }
             catch (Exception ex)
             {
                 tempText = $"Um erro foi encontrado - {ex.Message}";
-                TempData["Status"] = false;
                 return RedirectToAction("Home");
             }
         }
