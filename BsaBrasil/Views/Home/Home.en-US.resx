@@ -372,4 +372,10 @@
   <data name="Sua mensagem foi enviada. Obrigado!" xml:space="preserve">
     <value>Your message was sent. Thank you!</value>
   </data>
+  <data name="Parceiros Estratégicos" xml:space="preserve">
+    <value>Strategic Partners</value>
+  </data>
+  <data name="ParceirosText" xml:space="preserve">
+    <value>Under Construction</value>
+  </data>
 </root>

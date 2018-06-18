@@ -136,6 +136,9 @@
   <data name="NegociosText" xml:space="preserve">
     <value>Como resultado, destamos como principais competências e conhecimentos de negócio:</value>
   </data>
+  <data name="ParceirosText" xml:space="preserve">
+    <value>Em construção</value>
+  </data>
   <data name="QuemSomosSubtitle" xml:space="preserve">
     <value>Sucesso não é um simples fato isolado ou qualquer.Está alinhado a quem você é e onde você quer estar.Estamos preparados para a 4ª Revolução industrial.Vamos juntos fazer parte desta Transformação.</value>
   </data>
