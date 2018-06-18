@@ -22,6 +22,8 @@ namespace BsaBrasil.Controllers
         public IStringLocalizer<HomeController> Localizer { get; }
         public IEmailSender EmailSender { get; }
 
+        private static string tempText;
+
         public HomeController(IStringLocalizer<HomeController> localizer,
                               IEmailSender emailSender)
         {
@@ -35,6 +37,8 @@ namespace BsaBrasil.Controllers
 
         public IActionResult Home()
         {
+            TempData["EmailSent"] = tempText;
+            tempText = "";
             return View();
         }
 
@@ -62,10 +66,14 @@ namespace BsaBrasil.Controllers
             try
             {
                 await EmailSender.SendEmailAsync(email, subject, message, name);
+                tempText = "Email enviado com sucesso!";
+                TempData["Status"] = true;
                 return RedirectToAction("Home");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                tempText = $"Um erro foi encontrado - {ex.Message}";
+                TempData["Status"] = false;
                 return RedirectToAction("Home");
             }
         }

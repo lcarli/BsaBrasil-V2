@@ -38,9 +38,12 @@ namespace BsaBrasil
 
             services.AddLocalization();
 
+            services.AddSession();
+
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
-                    .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix);
+                    .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                    .AddSessionStateTempDataProvider();
 
             services.Configure<RequestLocalizationOptions>(options =>
             {
@@ -76,6 +79,8 @@ namespace BsaBrasil
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
