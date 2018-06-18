@@ -682,19 +682,18 @@
                     }
 
                     <div class="form">
-                        <form asp-action="Send" asp-controller="Home" method="post" role="form">
+                        <form asp-action="Send" asp-controller="Home" method="post" role="form" id="form_contato">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-val-required="@Localizer["Por favor, digite ao menos 4 caracteres"]" />
-                                @*<span asp-validation-for="Nome" style="background-color:red; color:white"></span>*@
+                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-val-required="@Localizer["Por favor, digite ao menos 4 caracteres"]" required minlength="5"/>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="@Localizer["Seu e-mail"]" data-rule="email" data-msg="@Localizer["Por favor, digite um e-mail válido"]" />
+                                <input type="email" class="form-control" name="email" id="email" placeholder="@Localizer["Seu e-mail"]" data-msg="@Localizer["Por favor, digite um e-mail válido"]" required email />
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="@Localizer["Assunto"]" data-rule="minlen:4" data-msg="@Localizer["Por favor, digite ao menos 8 caracteres como assunto"]" />
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="@Localizer["Assunto"]" data-msg="@Localizer["Por favor, digite ao menos 8 caracteres como assunto"]" required minlength="5" maxlength="30" />
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="@Localizer["Por favor, escreve algo para nós"]" placeholder="@Localizer["Mensagem"]"></textarea>
+                                <textarea class="form-control" name="message" data-msg="@Localizer["Por favor, escreve algo para nós"]" placeholder="@Localizer["Mensagem"]" required minlength="5"></textarea>
                             </div>
                             <div class="text-center"><button type="submit">@Localizer["Enviar Mensagem"]</button></div>
                         </form>
@@ -735,12 +734,15 @@
     <script src="~/Custom/lib/stickyjs/sticky.js"></script>
     <script src="~/Custom/lib/easing/easing.js"></script>
     <script src="~/Custom/js/progressbar.js"></script>
+    <script src="jquery.validate.min.js"></script>
 
     <!-- Template Specisifc Custom Javascript File -->
     <script src="~/Custom/js/custom.js"></script>
-
-    <script src="~/Custom/contactform/contactform.js"></script>
-
+    <script>
+        $().ready(function () {
+            $("#form_contato").validate();
+        });
+    </script>
 
 </body>
 

@@ -79,7 +79,7 @@ namespace BsaBrasil.Controllers
         {
             try
             {
-                await EmailSender.SendEmailAsync(email, subject, message, name);
+                //await EmailSender.SendEmailAsync(email, subject, message, name);
                 tempText = Localizer["Sua mensagem foi enviada. Obrigado!"];
                 return RedirectToAction("Home");
             }
