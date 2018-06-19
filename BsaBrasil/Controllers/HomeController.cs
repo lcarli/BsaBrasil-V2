@@ -88,8 +88,8 @@ namespace BsaBrasil.Controllers
 
         [HttpPost]
         public IActionResult SetLanguage(string culture, string returnUrl)
-        { 
-            Response.Cookies.Append(
+        {
+            Response.HttpContext.Response.Cookies.Append(
                 CookieRequestCultureProvider.DefaultCookieName,
                 CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
                 new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }

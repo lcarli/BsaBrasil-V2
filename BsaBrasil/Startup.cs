@@ -79,7 +79,7 @@ namespace BsaBrasil
 
 
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseCookiePolicy();
 
             app.UseSession();
 
