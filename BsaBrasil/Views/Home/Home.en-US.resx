@@ -378,4 +378,10 @@
   <data name="ParceirosText" xml:space="preserve">
     <value>The teamwork is rich, strong and because of that is able to reach the hardest goals. We work together with focus on the goals who really need to be conquer, sharing and changing knowledge and experience together with our partners. We can do more together!</value>
   </data>
+  <data name="Mudar" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Language</value>
+  </data>
 </root>

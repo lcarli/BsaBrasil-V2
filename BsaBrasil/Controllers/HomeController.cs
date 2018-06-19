@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BsaBrasil.Models;
 using Microsoft.Extensions.Localization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Options;
-using Microsoft.AspNetCore.Builder;
-using System.Net.Mail;
-using System.Net;
 using Microsoft.AspNetCore.Authorization;
 using BsaBrasil.Interfaces;
 using BsaBrasil.Extensions.Alerts;
 using BsaBrasil.ViewModel;
+using System.Globalization;
+using System.Threading;
 
 namespace BsaBrasil.Controllers
 {
@@ -88,6 +84,17 @@ namespace BsaBrasil.Controllers
                 tempText = $"Um erro foi encontrado - {ex.Message}";
                 return RedirectToAction("Home");
             }
+        }
+
+        [HttpPost]
+        public IActionResult SetLanguage(string culture, string returnUrl)
+        { 
+            Response.Cookies.Append(
+                CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+            );
+            return LocalRedirect(returnUrl);
         }
     }
 }

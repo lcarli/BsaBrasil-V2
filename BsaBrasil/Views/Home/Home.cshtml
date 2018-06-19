@@ -684,7 +684,7 @@
                     <div class="form">
                         <form asp-action="Send" asp-controller="Home" method="post" role="form" id="form_contato">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-val-required="@Localizer["Por favor, digite ao menos 4 caracteres"]" required minlength="5"/>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Seu nome"]" data-val-required="@Localizer["Por favor, digite ao menos 4 caracteres"]" required minlength="5" />
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" id="email" placeholder="@Localizer["Seu e-mail"]" data-msg="@Localizer["Por favor, digite um e-mail válido"]" required email />
@@ -710,13 +710,18 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-3 text-right">
+                    @await Html.PartialAsync("_SelectLanguagePartial")
+                </div>
+                <div class="col-md-6">
                     <div class="copyright">
                         &copy; Copyright <strong>BSA Brasil</strong>. @Localizer["Todos os direitos reservados"].
                     </div>
                     <div class="credits">
                         @Localizer["Desenvolvido por"] <a href="http://www.bsabrasil.com.br/">BSA Brasil.</a>
                     </div>
+                </div>
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
