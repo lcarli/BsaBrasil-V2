@@ -131,6 +131,12 @@
                     <li><a href="#testimonials">@Localizer["Negócios"]</a></li>
                     <li><a href="#team">@Localizer["Técnico"]</a></li>
                     <li><a href="#contact">@Localizer["Contate-nos"] </a></li>
+                    <li class="menu-has-children">
+                        <a>@Localizer["Idioma"]</a>
+                        <ul>
+                            @await Html.PartialAsync("_SelectLanguageMenuPartial")
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
