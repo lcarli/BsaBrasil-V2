@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AIText" xml:space="preserve">
+    <value>Используйте искусственный интеллект и научные знания, чтобы улучшить производительность и качество своих сервисов!</value>
+  </data>
+  <data name="Assinatura Digital de Arquivos" xml:space="preserve">
+    <value>Электронная подпись</value>
+  </data>
+  <data name="Assunto" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Atendimento de Sistemas Legado e Customizações" xml:space="preserve">
+    <value>Уход за устаревшими и пользовательскими системами</value>
+  </data>
+  <data name="Basiléia" xml:space="preserve">
+    <value>Базель (Соглашение)</value>
+  </data>
+  <data name="Bem vindo à BSA Brasil" xml:space="preserve">
+    <value>Добро пожаловать в BSA Brasil</value>
+  </data>
+  <data name="Canais de Atendimento" xml:space="preserve">
+    <value>Техническая поддержка</value>
+  </data>
+  <data name="Cartão Consignado" xml:space="preserve">
+    <value>Кредитные карты сторонних организаций</value>
+  </data>
+  <data name="Cartão de Crédito" xml:space="preserve">
+    <value>Кредитные карты</value>
+  </data>
+  <data name="Cartão de Crédito Pré-Pago" xml:space="preserve">
+    <value>Дебетовая Карта</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Клиенты</value>
+  </data>
+  <data name="ClientesText" xml:space="preserve">
+    <value>Мы разработали ряд решений для некоторых крупнейших компаний в Бразилии, применяя наши знания из многолетнего опыта работы на ИТ-рынке. Мы используем опыт, накопленный в различных секторах, и всегда ориентировались на потребности наших клиентов, чтобы предложить услуги, программное обеспечение и продукты, способствующие развитию бизнеса. Узнайте больше о нашей компании и о том, что мы можем Вам предложить.</value>
+  </data>
+  <data name="Conciliação de Contas" xml:space="preserve">
+    <value>проверка счёта</value>
+  </data>
+  <data name="Conhecimento" xml:space="preserve">
+    <value>База знаний</value>
+  </data>
+  <data name="Conheça" xml:space="preserve">
+    <value>Больше информации</value>
+  </data>
+  <data name="Conta Corrente - Extrato Consolidado" xml:space="preserve">
+    <value>Резюме Аккаунта</value>
+  </data>
+  <data name="Contate-nos" xml:space="preserve">
+    <value>Связаться с нами</value>
+  </data>
+  <data name="CredforceText" xml:space="preserve">
+    <value>CREDFORCE - наша коммерческая платформа, оперативная и управленческая поддержка клиентов и других представителей таких услуг, как: финансы,банки, страхование и здравоохранение</value>
+  </data>
+  <data name="Crédito Consignado" xml:space="preserve">
+    <value>Кредит сторонних организаций</value>
+  </data>
+  <data name="Câmbio" xml:space="preserve">
+    <value>Обмен</value>
+  </data>
+  <data name="Deixe sua mensagem que entraremos em contato." xml:space="preserve">
+    <value>Оставьте свое сообщение и мы свяжемся с вами.</value>
+  </data>
+  <data name="Desenvolvido por" xml:space="preserve">
+    <value>Разработано</value>
+  </data>
+  <data name="Desenvolvimento de Negócios" xml:space="preserve">
+    <value>развитие бизнеса</value>
+  </data>
+  <data name="DESENVOLVIMENTO DE SISTEMAS E APLICATIVOS" xml:space="preserve">
+    <value>РАЗРАБОТКА ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ И ПРИЛОЖЕНИЙ</value>
+  </data>
+  <data name="DevText" xml:space="preserve">
+    <value>Наша главная цель - обеспечить нашим клиентам рентабельность, совершенствование бизнес процессов, внедрить искусственный интеллект в развитии технологий, проявляя гибкость и используя все имеющиеся технические условия для этого, предлагая современные технологии, представленные сегодня на рынке.</value>
+  </data>
+  <data name="Digitação de Guias médicas" xml:space="preserve">
+    <value>Оцифровка медицинских справочников</value>
+  </data>
+  <data name="Enviar Mensagem" xml:space="preserve">
+    <value>отправить сообщение</value>
+  </data>
+  <data name="Faturamento" xml:space="preserve">
+    <value>Доходы</value>
+  </data>
+  <data name="Financeiro" xml:space="preserve">
+    <value>Финансы</value>
+  </data>
+  <data name="Front-end e Mobilidade" xml:space="preserve">
+    <value>Front-End и мобильность</value>
+  </data>
+  <data name="Fábrica de Software, Sistemas e Aplicativos" xml:space="preserve">
+    <value>Программное обеспечение, системы и приложения</value>
+  </data>
+  <data name="Gateway de Pagamento" xml:space="preserve">
+    <value>Платежный шлюз</value>
+  </data>
+  <data name="Gestão de Crédito" xml:space="preserve">
+    <value>кредитный менеджмент</value>
+  </data>
+  <data name="Gestão de Risco de Mercado" xml:space="preserve">
+    <value>управление рыночными рисками</value>
+  </data>
+  <data name="Gestão de Sinistros e Apólice de Seguros" xml:space="preserve">
+    <value>Управление претензиями и страховые полисы</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="INFOWATCH: permite que os clientes reduzam ao mínimo os riscos associados ao processamento, movimentação e armazenamento de informações." xml:space="preserve">
+    <value />
+  </data>
+  <data name="Integração com Prestadora de Serviço e Operadora de Seguros" xml:space="preserve">
+    <value>Интеграция с сервис провайдерами и страховыми компаниями</value>
+  </data>
+  <data name="INTELIGÊNCIA ARTIFICIAL" xml:space="preserve">
+    <value>ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</value>
+  </data>
+  <data name="Leasing" xml:space="preserve">
+    <value>Лизинг</value>
+  </data>
+  <data name="Leilão Eletrônico" xml:space="preserve">
+    <value>Электронные Аукционы</value>
+  </data>
+  <data name="Listas Promocionais" xml:space="preserve">
+    <value>Списки промо</value>
+  </data>
+  <data name="Mensagem" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="Mercado de Capitais - Homebroker" xml:space="preserve">
+    <value>HOMEBROKER</value>
+  </data>
+  <data name="Metas e Comissionamento" xml:space="preserve">
+    <value>Установленные цели и получение вознаграждений</value>
+  </data>
+  <data name="Mudar" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Negociação Financeira" xml:space="preserve">
+    <value>Финансовый трейдинг</value>
+  </data>
+  <data name="NegociosText" xml:space="preserve">
+    <value>Наши ключевые навыки и бизнес компетенции:</value>
+  </data>
+  <data name="Normatizações com Integrações" xml:space="preserve">
+    <value>Нормализация и интеграция</value>
+  </data>
+  <data name="Nosso principal objetivo é garantir a nossos clientes lucratividade, melhoria de processos, inteligência no desenvolvimento de tecnologias, flexibilidade técnica e condições para garantir a continuidade do negócio com independencia para a escolha de tecnologias do mercado." xml:space="preserve">
+    <value>Наша главная цель - обеспечить нашим клиентам рентабельность, совершенствование бизнес процессов, внедрить искусственный интеллект в развитии технологий, проявляя гибкость и используя все имеющиеся технические условия для этого, предлагая современные технологии, представленные сегодня на рынке.</value>
+  </data>
+  <data name="Nossos Serviços" xml:space="preserve">
+    <value>наши сервисы</value>
+  </data>
+  <data name="Nós criamos Tecnologia, Nós criamos Inovação, Nós criamos Inteligência Artificial" xml:space="preserve">
+    <value>Мы создаем технологии, мы создаем инновации, мы создаем искусственный интеллект</value>
+  </data>
+  <data name="O que fizemos" xml:space="preserve">
+    <value>Предыстория</value>
+  </data>
+  <data name="Operações de Crédito" xml:space="preserve">
+    <value>кредитные операции</value>
+  </data>
+  <data name="Operações Multi-Serviços e  Multi-Instituição" xml:space="preserve">
+    <value>Многоуровневые операции и учреждения</value>
+  </data>
+  <data name="Otimização de Banco de Dados" xml:space="preserve">
+    <value>оптимизация баз данных</value>
+  </data>
+  <data name="Parceiros Estratégicos" xml:space="preserve">
+    <value>стратегические партнеры</value>
+  </data>
+  <data name="ParceirosText" xml:space="preserve">
+    <value>Работа команды очень важна, сплочённость помогает достичь самых высоких результатов. Мы фокусируемся на конечной цели, порой, самой сложно достижимой, обмениваемся знаниями и опытом с нашими партнерами. Мы можем сделать больше вместе!</value>
+  </data>
+  <data name="Por favor, digite ao menos 4 caracteres" xml:space="preserve">
+    <value>Пожалуйста, введите не менее 4 символов</value>
+  </data>
+  <data name="Por favor, digite ao menos 8 caracteres como assunto" xml:space="preserve">
+    <value>Введите минимум 8 символов в теме</value>
+  </data>
+  <data name="Por favor, digite um e-mail válido" xml:space="preserve">
+    <value>Пожалуйста, укажите действующий e-mail</value>
+  </data>
+  <data name="Por favor, escreve algo para nós" xml:space="preserve">
+    <value>Пожалуйста, напишите нам</value>
+  </data>
+  <data name="Portal Internet Banking" xml:space="preserve">
+    <value>Он-лайн Банк</value>
+  </data>
+  <data name="Quem Somos" xml:space="preserve">
+    <value>о нас</value>
+  </data>
+  <data name="QuemSomosSubtitle" xml:space="preserve">
+    <value>Успех - это не просто констатация факта. Он соответствует тому, кто вы и где вы хотите быть. Мы готовы к 4-й промышленной революции. Давайте вместе участвовать в этой Трансформации.</value>
+  </data>
+  <data name="QuemSomosText" xml:space="preserve">
+    <value>Мы предлагаем конкретную помощь, мы формируем команды профессионалов с опытом работы в сферах бизнеса и необходимые технические мероприятия, которые позволяют выявить потребности и рекомендации от лучших и самых передовых решений на рынке . &lt;br /&gt; 
+Мы знаем о современных тенденциях в технологиях, которые в последние годы значительно шагнули вперед. Поэтому становится все более важным улучшить развитие наших предложений, чтобы мотивировать интерес рынка к продуктам, предлагаемым нашими клиентами. Это понимание отличает нас от других технологических конкурентов. 
+&lt;br /&gt; 
+И это ещё не всё! Мы участвуем в цифровой трансформации и хотим разделить этот момент с нашими партнёрами и клиентами. Давайте вместе делать этот мир лучше, используя все современные технологии во благо развития бизнеса."</value>
+  </data>
+  <data name="Recursos de Glosa em BPO" xml:space="preserve">
+    <value>Ресурсы BPO</value>
+  </data>
+  <data name="Reembolso de Farmácias" xml:space="preserve">
+    <value>Расходы на лекарства и медицину</value>
+  </data>
+  <data name="Repasse e Financiamentos" xml:space="preserve">
+    <value>Кредиты и займы</value>
+  </data>
+  <data name="Segmento Financeiro" xml:space="preserve">
+    <value>Финансы</value>
+  </data>
+  <data name="Seguros e Consignados" xml:space="preserve">
+    <value>Страхование и расчет заработной платы</value>
+  </data>
+  <data name="Seguros e Sinistros" xml:space="preserve">
+    <value>Страхование и претензии</value>
+  </data>
+  <data name="Serviço Auxiliar de Diagnóstico e Terapia" xml:space="preserve">
+    <value>Диагностика и терапия вспомогательных услуг</value>
+  </data>
+  <data name="Serviços" xml:space="preserve">
+    <value>Услуги</value>
+  </data>
+  <data name="Serviços Profissionais de Desenvolvimento de Sistemas" xml:space="preserve">
+    <value>Профессиональные услуги по разработке систем </value>
+  </data>
+  <data name="Seu e-mail" xml:space="preserve">
+    <value>Ваш e-mail</value>
+  </data>
+  <data name="Seu nome" xml:space="preserve">
+    <value>Ваше имя</value>
+  </data>
+  <data name="SolucaoText" xml:space="preserve">
+    <value>Мы предлагаем своим клиентам и партнёрам собственные решения, накопленный опыт и индивидуальный подход к каждому, чтобы достичь поставленных целей в бизнесе с использованием современных технологий. Узнать  больше :</value>
+  </data>
+  <data name="SOLUÇÕES" xml:space="preserve">
+    <value>РЕШЕНИЯ</value>
+  </data>
+  <data name="Sua mensagem foi enviada. Obrigado!" xml:space="preserve">
+    <value>Ваше сообщение было отправлено. Спасибо!</value>
+  </data>
+  <data name="TecnicoText" xml:space="preserve">
+    <value>Наши являемся экспертами по различным технологиям рынка, аккумулируя опыт с годами. Мы выделяем:</value>
+  </data>
+  <data name="Tecnologias" xml:space="preserve">
+    <value>Технологии</value>
+  </data>
+  <data name="Todos os direitos reservados" xml:space="preserve">
+    <value>Все права защищены</value>
+  </data>
+  <data name="Vamos fazer juntos ideias" xml:space="preserve">
+    <value>Давайте генерить идеи вместе</value>
+  </data>
+  <data name="Vida e Previdência" xml:space="preserve">
+    <value>Жизнь и пенсия</value>
+  </data>
+  <data name="Negócios" xml:space="preserve">
+    <value>Бизнес</value>
+  </data>
+  <data name="O que já temos e o que podemos fazer" xml:space="preserve">
+    <value>Что мы уже имеем и что можем сделать</value>
+  </data>
+  <data name="Segmentos Específicos" xml:space="preserve">
+    <value>Конкретные знания</value>
+  </data>
+</root>

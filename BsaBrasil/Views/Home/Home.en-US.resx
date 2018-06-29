@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AIText" xml:space="preserve">
-    <value>Getting better with Artificial Intelligence and Data Science to upgrade your produtivity and quality!</value>
+    <value>Combine your services with artificial Intelligence and data science to improve your produtivity and quality!</value>
   </data>
   <data name="Assinatura Digital de Arquivos" xml:space="preserve">
-    <value>File Digital Signature</value>
+    <value>Digital Signature</value>
   </data>
   <data name="Atendimento de Sistemas Legado e Customizações" xml:space="preserve">
-    <value>Legacy Systems and Custom Systems</value>
+    <value>Care of Legacy and Custom systems</value>
   </data>
   <data name="Basiléia" xml:space="preserve">
     <value>Basel (Agreement)</value>
@@ -148,8 +148,7 @@
     <value>Clients</value>
   </data>
   <data name="ClientesText" xml:space="preserve">
-    <value>We developed many software systems for biggests companies in Brazil, applying our knowledge from many years of experience.
-                        This companies are the reason of our existence and also your company. Let's us show some of our clients:</value>
+    <value>We have developed a series of solutions to some of the largest companies in Brazil, applying our knowledge from years of experience on the IT market. We use experiences gained in various sectors, and have always oriented to understand the needs of our clients and to suggest the services, software and products oriented business. Learn more about our company, and what we can offer you.</value>
   </data>
   <data name="Conciliação de Contas" xml:space="preserve">
     <value>Reconciliation</value>
@@ -182,13 +181,13 @@
     <value>SOFTWARE AND APPLICATION DEVELOPMENT</value>
   </data>
   <data name="DevText" xml:space="preserve">
-    <value>We can help you to develop your ideas and business, either building new software with high technology or presenting complex projects focused in technical leadership, such as:</value>
+    <value>Our main goal is to ensure our customers profitability, process improvements, intelligence in the development of technologies, flexibility and technical conditions to make the business continue, offering a variety of technologies presented on the market.</value>
   </data>
   <data name="Digitação de Guias médicas" xml:space="preserve">
     <value>Doctor's fowarding letter typing</value>
   </data>
-  <data name="Específicos" xml:space="preserve">
-    <value>Specifics</value>
+  <data name="Conhecimento" xml:space="preserve">
+    <value>Knowledge base</value>
   </data>
   <data name="Faturamento" xml:space="preserve">
     <value>Revenue</value>
@@ -199,8 +198,8 @@
   <data name="Front-end e Mobilidade" xml:space="preserve">
     <value>Front-End and Mobility</value>
   </data>
-  <data name="Fábrica de Sistemas e Aplicativos" xml:space="preserve">
-    <value>Software House</value>
+  <data name="Fábrica de Software, Sistemas e Aplicativos" xml:space="preserve">
+    <value>Software factory, Systems, and Applications</value>
   </data>
   <data name="Gateway de Pagamento" xml:space="preserve">
     <value>Payment Gateway</value>
@@ -241,14 +240,14 @@
   <data name="Metas e Comissionamento" xml:space="preserve">
     <value>Target Plan and Commissioning</value>
   </data>
-  <data name="Negociação" xml:space="preserve">
-    <value>Negociation</value>
+  <data name="Negociação Financeira" xml:space="preserve">
+    <value>Financial Trading</value>
   </data>
   <data name="NegociosText" xml:space="preserve">
-    <value>As result, we show as mainly skills and business knowledge:</value>
+    <value>We highlight the following as our core competences and business skills:</value>
   </data>
-  <data name="Negócios" xml:space="preserve">
-    <value>Business</value>
+  <data name="Segmento Financeiro" xml:space="preserve">
+    <value>Financial Segment</value>
   </data>
   <data name="Normatizações com Integrações" xml:space="preserve">
     <value>Normalization and Integration</value>
@@ -277,8 +276,8 @@
   <data name="Portal Internet Banking" xml:space="preserve">
     <value>Internet Banking</value>
   </data>
-  <data name="Quem marcar uma reunião? Entre em contato conosco." xml:space="preserve">
-    <value>Want to meet us? Book a meeting right now.</value>
+  <data name="Deixe sua mensagem que entraremos em contato." xml:space="preserve">
+    <value>Leave your message and we will contact you.</value>
   </data>
   <data name="Quem Somos" xml:space="preserve">
     <value>About Us</value>
@@ -287,15 +286,10 @@
     <value>Success is not only a simple fact. It is aligned with who you are and where you wanna be. We are ready to the 4ª Industrial Revolution. Let's go together make this transformation.</value>
   </data>
   <data name="QuemSomosText" xml:space="preserve">
-    <value>We offer custom services for our clients. We share the mission, the goals and create a profissional team with the finest knowledge about business
-                        and technical areas needed, which allow us to identify the needs of our client and the recommendation of the best and poweful and modern applications on the market.
-                        &lt;br /&gt;
-                        Our difference is because we understood technology and business is under transformation, becaming more vital to make people capable to understand
-                        the products at social medias, web sites and physical stores. With this, we offer to our clients solutions that can help them to understand and reach
-                        commercial result and satisfaction with their operations.
-                        &lt;br /&gt;
-                        We can more! We are able to to help you with Digital Transformation and want to share this with our partner and clients. Let's go togheter suggest changes to the Market,
-                       and make difference to go futher and conquest more in that recolution using intelligent techs, mixing the physical, digital e biological world.</value>
+    <value>We offer specific support, we form teams of professionals with expertise in the areas of business and with the necessary  technical arrangements, that allow the identification of needs and recommendation of the best and the most advanced Solutions in use on the market . &lt;br /&gt;
+ We are aware of the tendencies in technologies, which has move forward a lot in the recent years. Therefore, it becomes increasingly more vital to improve the development of our offerings to motivate the interest of the market in the products offered by our clients. This understanding sets us apart from other technology competitors. 
+&lt;br /&gt;
+We can go far! We participate in the Digital Transformation, and we want to share this with our partners and customers. Let's together suggest the changes to the Market and “perform differently” to increase the horizons and to gain significant spaces in this important Revolution using smart technology.</value>
   </data>
   <data name="Recursos de Glosa em BPO" xml:space="preserve">
     <value>BPO Resources</value>
@@ -328,13 +322,13 @@
     <value>SOLUTIONS</value>
   </data>
   <data name="TecnicoText" xml:space="preserve">
-    <value>Our tech team are spread in many technologies, developing thru many years of work, such as:</value>
+    <value>Our knowledge are spread in many technologies, developed thru many years of work, such as:</value>
   </data>
   <data name="Todos os direitos reservados" xml:space="preserve">
     <value>All rights reserved</value>
   </data>
-  <data name="Técnico" xml:space="preserve">
-    <value>Technical</value>
+  <data name="Tecnologias" xml:space="preserve">
+    <value>Technologies</value>
   </data>
   <data name="Vamos fazer juntos ideias" xml:space="preserve">
     <value>Let's go together</value>
@@ -383,5 +377,8 @@
   </data>
   <data name="Idioma" xml:space="preserve">
     <value>Language</value>
+  </data>
+  <data name="Segmentos Específicos" xml:space="preserve">
+    <value>Specific Know-How</value>
   </data>
 </root>
