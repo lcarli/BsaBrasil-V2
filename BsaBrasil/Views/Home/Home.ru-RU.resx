@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AIText" xml:space="preserve">
-    <value>Используйте искусственный интеллект и научные знания, чтобы улучшить производительность и качество своих сервисов!</value>
+    <value>Используйте искусственный интеллект и научные знания, чтобы улучшить производительность и качество предоставляемых услуг.</value>
   </data>
   <data name="Assinatura Digital de Arquivos" xml:space="preserve">
     <value>Электронная подпись</value>
@@ -127,10 +127,10 @@
     <value>Тема</value>
   </data>
   <data name="Atendimento de Sistemas Legado e Customizações" xml:space="preserve">
-    <value>Уход за устаревшими и пользовательскими системами</value>
+    <value>Обслуживание различных опереционных систем</value>
   </data>
   <data name="Basiléia" xml:space="preserve">
-    <value>Базель (Соглашение)</value>
+    <value>Базельские соглашения о достаточности банковского капитала</value>
   </data>
   <data name="Bem vindo à BSA Brasil" xml:space="preserve">
     <value>Добро пожаловать в BSA Brasil</value>
@@ -139,67 +139,67 @@
     <value>Техническая поддержка</value>
   </data>
   <data name="Cartão Consignado" xml:space="preserve">
-    <value>Кредитные карты сторонних организаций</value>
+    <value>Cartão Consignado - Особый вид рынка банковских продуктов Бразилии</value>
   </data>
   <data name="Cartão de Crédito" xml:space="preserve">
     <value>Кредитные карты</value>
   </data>
   <data name="Cartão de Crédito Pré-Pago" xml:space="preserve">
-    <value>Дебетовая Карта</value>
+    <value>Дебетовые карты</value>
   </data>
   <data name="Clientes" xml:space="preserve">
-    <value>Клиенты</value>
+    <value>Наши клиенты</value>
   </data>
   <data name="ClientesText" xml:space="preserve">
-    <value>Мы разработали ряд решений для некоторых крупнейших компаний в Бразилии, применяя наши знания из многолетнего опыта работы на ИТ-рынке. Мы используем опыт, накопленный в различных секторах, и всегда ориентировались на потребности наших клиентов, чтобы предложить услуги, программное обеспечение и продукты, способствующие развитию бизнеса. Узнайте больше о нашей компании и о том, что мы можем Вам предложить.</value>
+    <value>Мы разработали ряд решений для некоторых крупнейших компаний в Бразилии, используя свой многолетний опыи работы на ИТ-рынке. Мы всегда ориентируемся на потребности наших клиентов, предлагая им услуги, программное обеспечение и продукты, способствующие развитию бизнеса. Узнайте больше об услугах нашей компании</value>
   </data>
   <data name="Conciliação de Contas" xml:space="preserve">
-    <value>проверка счёта</value>
+    <value>Проверить состояние счёта</value>
   </data>
   <data name="Conhecimento" xml:space="preserve">
-    <value>База знаний</value>
+    <value>Решения для бизнеса</value>
   </data>
   <data name="Conheça" xml:space="preserve">
     <value>Больше информации</value>
   </data>
   <data name="Conta Corrente - Extrato Consolidado" xml:space="preserve">
-    <value>Резюме Аккаунта</value>
+    <value>Резюме аккаунта</value>
   </data>
   <data name="Contate-nos" xml:space="preserve">
     <value>Связаться с нами</value>
   </data>
   <data name="CredforceText" xml:space="preserve">
-    <value>CREDFORCE - наша коммерческая платформа, оперативная и управленческая поддержка клиентов и других представителей таких услуг, как: финансы,банки, страхование и здравоохранение</value>
+    <value>CredForce - наша коммерческая платформа, включающая оперативную и управленческую поддержку клиентов в таких сферах, как: банквский и финансовый сектора, страхование, здравоохранение и др.</value>
   </data>
   <data name="Crédito Consignado" xml:space="preserve">
-    <value>Кредит сторонних организаций</value>
+    <value>Crédito Consigando - Особый вид рынка банковских продуктов Бразилии</value>
   </data>
   <data name="Câmbio" xml:space="preserve">
-    <value>Обмен</value>
+    <value>Обменные операции</value>
   </data>
   <data name="Deixe sua mensagem que entraremos em contato." xml:space="preserve">
-    <value>Оставьте свое сообщение и мы свяжемся с вами.</value>
+    <value>Отправьте сообщение и мы свяжемся с вами.</value>
   </data>
   <data name="Desenvolvido por" xml:space="preserve">
     <value>Разработано</value>
   </data>
   <data name="Desenvolvimento de Negócios" xml:space="preserve">
-    <value>развитие бизнеса</value>
+    <value>Развитие бизнеса</value>
   </data>
   <data name="DESENVOLVIMENTO DE SISTEMAS E APLICATIVOS" xml:space="preserve">
     <value>РАЗРАБОТКА ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ И ПРИЛОЖЕНИЙ</value>
   </data>
   <data name="DevText" xml:space="preserve">
-    <value>Наша главная цель - обеспечить нашим клиентам рентабельность, совершенствование бизнес процессов, внедрить искусственный интеллект в развитии технологий, проявляя гибкость и используя все имеющиеся технические условия для этого, предлагая современные технологии, представленные сегодня на рынке.</value>
+    <value>Наша главная цель - обеспечить нашим клиентам рентабельность и совершенствование бизнес процессов, внедрить искусственный интеллект в развитие технологий. Проявляя гибкость и используя все имеющиеся технические условия для этого, мы предлагаем нашим клиентам внедрять современные технологии, представленные сегодня на рынке.</value>
   </data>
   <data name="Digitação de Guias médicas" xml:space="preserve">
     <value>Оцифровка медицинских справочников</value>
   </data>
   <data name="Enviar Mensagem" xml:space="preserve">
-    <value>отправить сообщение</value>
+    <value>Отправить сообщение</value>
   </data>
   <data name="Faturamento" xml:space="preserve">
-    <value>Доходы</value>
+    <value>Состояние накопительного счёта</value>
   </data>
   <data name="Financeiro" xml:space="preserve">
     <value>Финансы</value>
@@ -208,19 +208,19 @@
     <value>Front-End и мобильность</value>
   </data>
   <data name="Fábrica de Software, Sistemas e Aplicativos" xml:space="preserve">
-    <value>Программное обеспечение, системы и приложения</value>
+    <value>Разработка программного обеспечения и приложений</value>
   </data>
   <data name="Gateway de Pagamento" xml:space="preserve">
-    <value>Платежный шлюз</value>
+    <value>Платёжные терминалы</value>
   </data>
   <data name="Gestão de Crédito" xml:space="preserve">
-    <value>кредитный менеджмент</value>
+    <value>Управление кредитными операциями</value>
   </data>
   <data name="Gestão de Risco de Mercado" xml:space="preserve">
-    <value>управление рыночными рисками</value>
+    <value>Управление рыночными рисками</value>
   </data>
   <data name="Gestão de Sinistros e Apólice de Seguros" xml:space="preserve">
-    <value>Управление претензиями и страховые полисы</value>
+    <value>Управление претензиями и страховыми выплатами</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Главная</value>
@@ -232,7 +232,7 @@
     <value />
   </data>
   <data name="Integração com Prestadora de Serviço e Operadora de Seguros" xml:space="preserve">
-    <value>Интеграция с сервис провайдерами и страховыми компаниями</value>
+    <value>Интеграция с сервис-провайдерами и страховыми компаниями</value>
   </data>
   <data name="INTELIGÊNCIA ARTIFICIAL" xml:space="preserve">
     <value>ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</value>
@@ -241,10 +241,10 @@
     <value>Лизинг</value>
   </data>
   <data name="Leilão Eletrônico" xml:space="preserve">
-    <value>Электронные Аукционы</value>
+    <value>Электронные аукционы</value>
   </data>
   <data name="Listas Promocionais" xml:space="preserve">
-    <value>Списки промо</value>
+    <value>Промо-акции</value>
   </data>
   <data name="Mensagem" xml:space="preserve">
     <value>Сообщение</value>
@@ -253,7 +253,7 @@
     <value>HOMEBROKER</value>
   </data>
   <data name="Metas e Comissionamento" xml:space="preserve">
-    <value>Установленные цели и получение вознаграждений</value>
+    <value>Вклады и бонусные программы</value>
   </data>
   <data name="Mudar" xml:space="preserve">
     <value>Изменить</value>
@@ -265,31 +265,31 @@
     <value>Наши ключевые навыки и бизнес компетенции:</value>
   </data>
   <data name="Normatizações com Integrações" xml:space="preserve">
-    <value>Нормализация и интеграция</value>
+    <value>Легализация бизнес-процессов и интеграция систем</value>
   </data>
   <data name="Nosso principal objetivo é garantir a nossos clientes lucratividade, melhoria de processos, inteligência no desenvolvimento de tecnologias, flexibilidade técnica e condições para garantir a continuidade do negócio com independencia para a escolha de tecnologias do mercado." xml:space="preserve">
     <value>Наша главная цель - обеспечить нашим клиентам рентабельность, совершенствование бизнес процессов, внедрить искусственный интеллект в развитии технологий, проявляя гибкость и используя все имеющиеся технические условия для этого, предлагая современные технологии, представленные сегодня на рынке.</value>
   </data>
   <data name="Nossos Serviços" xml:space="preserve">
-    <value>наши сервисы</value>
+    <value>Услуги</value>
   </data>
   <data name="Nós criamos Tecnologia, Nós criamos Inovação, Nós criamos Inteligência Artificial" xml:space="preserve">
-    <value>Мы создаем технологии, мы создаем инновации, мы создаем искусственный интеллект</value>
+    <value>Мы создаём технологии, Мы открыты инновациям, Мы внедряем искусственный интеллект</value>
   </data>
   <data name="O que fizemos" xml:space="preserve">
     <value>Предыстория</value>
   </data>
   <data name="Operações de Crédito" xml:space="preserve">
-    <value>кредитные операции</value>
+    <value>История кредитных операций</value>
   </data>
   <data name="Operações Multi-Serviços e  Multi-Instituição" xml:space="preserve">
-    <value>Многоуровневые операции и учреждения</value>
+    <value>Сложные денежные операции</value>
   </data>
   <data name="Otimização de Banco de Dados" xml:space="preserve">
-    <value>оптимизация баз данных</value>
+    <value>Решения для оптимизации баз данных</value>
   </data>
   <data name="Parceiros Estratégicos" xml:space="preserve">
-    <value>стратегические партнеры</value>
+    <value>Наши партнёры</value>
   </data>
   <data name="ParceirosText" xml:space="preserve">
     <value>Работа команды очень важна, сплочённость помогает достичь самых высоких результатов. Мы фокусируемся на конечной цели, порой, самой сложно достижимой, обмениваемся знаниями и опытом с нашими партнерами. Мы можем сделать больше вместе!</value>
@@ -307,25 +307,24 @@
     <value>Пожалуйста, напишите нам</value>
   </data>
   <data name="Portal Internet Banking" xml:space="preserve">
-    <value>Он-лайн Банк</value>
+    <value>Банк Он-Лайн</value>
   </data>
   <data name="Quem Somos" xml:space="preserve">
-    <value>о нас</value>
+    <value>О компании</value>
   </data>
   <data name="QuemSomosSubtitle" xml:space="preserve">
-    <value>Успех - это не просто констатация факта. Он соответствует тому, кто вы и где вы хотите быть. Мы готовы к 4-й промышленной революции. Давайте вместе участвовать в этой Трансформации.</value>
+    <value>Успех - это не просто достигнутая цель. Успех показывает, где вы сейчас и какие цели ставите перед собой. Мы готовы к 4-й промышленной революции. Участвуйте вместе с нами в этой трансформации.</value>
   </data>
   <data name="QuemSomosText" xml:space="preserve">
-    <value>Мы предлагаем конкретную помощь, мы формируем команды профессионалов с опытом работы в сферах бизнеса и необходимые технические мероприятия, которые позволяют выявить потребности и рекомендации от лучших и самых передовых решений на рынке . &lt;br /&gt; 
-Мы знаем о современных тенденциях в технологиях, которые в последние годы значительно шагнули вперед. Поэтому становится все более важным улучшить развитие наших предложений, чтобы мотивировать интерес рынка к продуктам, предлагаемым нашими клиентами. Это понимание отличает нас от других технологических конкурентов. 
-&lt;br /&gt; 
-И это ещё не всё! Мы участвуем в цифровой трансформации и хотим разделить этот момент с нашими партнёрами и клиентами. Давайте вместе делать этот мир лучше, используя все современные технологии во благо развития бизнеса."</value>
+    <value>Мы предлагаем вам конкретную помощь. Наша команда опытных специалистов поможет выявить потребности бизнеса и порекомендует самые передовые решения на рынке.&lt;/br&gt;
+Мы знаем о современных тенденциях в технологиях всё. Чтобы мотивировать интерес к продуктам, предлагаемым нашим клиентам, необходимо ежедневно улучшать и развивать свои ключевые навыки. Именно это понимание и отличает нас от других технологических конкурентов. &lt;/br&gt;
+И это еще не всё! Мы вместе с нашими клиентами и партнёрами готовы к новой цифровой информации. Делая вместе этот мир лучше, мы будем использовать современные технологии в развитии бизнеса.</value>
   </data>
   <data name="Recursos de Glosa em BPO" xml:space="preserve">
-    <value>Ресурсы BPO</value>
+    <value>Ресурсы ВРО (Аутсорсинг бизнес-процессов)</value>
   </data>
   <data name="Reembolso de Farmácias" xml:space="preserve">
-    <value>Расходы на лекарства и медицину</value>
+    <value>Компенсация расходов на лекарства и медицинские услуги</value>
   </data>
   <data name="Repasse e Financiamentos" xml:space="preserve">
     <value>Кредиты и займы</value>
@@ -337,16 +336,16 @@
     <value>Страхование и расчет заработной платы</value>
   </data>
   <data name="Seguros e Sinistros" xml:space="preserve">
-    <value>Страхование и претензии</value>
+    <value>Страхование</value>
   </data>
   <data name="Serviço Auxiliar de Diagnóstico e Terapia" xml:space="preserve">
-    <value>Диагностика и терапия вспомогательных услуг</value>
+    <value>Диагностика и обслуживание учреждений</value>
   </data>
   <data name="Serviços" xml:space="preserve">
     <value>Услуги</value>
   </data>
   <data name="Serviços Profissionais de Desenvolvimento de Sistemas" xml:space="preserve">
-    <value>Профессиональные услуги по разработке систем </value>
+    <value>Профессиональные услуги по разработке систем</value>
   </data>
   <data name="Seu e-mail" xml:space="preserve">
     <value>Ваш e-mail</value>
@@ -355,7 +354,7 @@
     <value>Ваше имя</value>
   </data>
   <data name="SolucaoText" xml:space="preserve">
-    <value>Мы предлагаем своим клиентам и партнёрам собственные решения, накопленный опыт и индивидуальный подход к каждому, чтобы достичь поставленных целей в бизнесе с использованием современных технологий. Узнать  больше :</value>
+    <value>Мы предлагаем клиентам и партнёрам собственные решения, созданные на основании накопленного опыта и благодаря индивидуальному подходу к каждому клиенту. Мы достигаем поставленных целей, используя современнык технологии. Например:</value>
   </data>
   <data name="SOLUÇÕES" xml:space="preserve">
     <value>РЕШЕНИЯ</value>
@@ -364,7 +363,7 @@
     <value>Ваше сообщение было отправлено. Спасибо!</value>
   </data>
   <data name="TecnicoText" xml:space="preserve">
-    <value>Наши являемся экспертами по различным технологиям рынка, аккумулируя опыт с годами. Мы выделяем:</value>
+    <value>Мы - опытные эксперты на рынке технологий:</value>
   </data>
   <data name="Tecnologias" xml:space="preserve">
     <value>Технологии</value>
@@ -376,7 +375,7 @@
     <value>Давайте генерить идеи вместе</value>
   </data>
   <data name="Vida e Previdência" xml:space="preserve">
-    <value>Жизнь и пенсия</value>
+    <value>Пособия и пенсионные выплаты</value>
   </data>
   <data name="Negócios" xml:space="preserve">
     <value>Бизнес</value>
@@ -385,6 +384,6 @@
     <value>Что мы уже имеем и что можем сделать</value>
   </data>
   <data name="Segmentos Específicos" xml:space="preserve">
-    <value>Конкретные знания</value>
+    <value>Оказываемые услуги</value>
   </data>
 </root>
